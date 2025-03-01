@@ -418,6 +418,53 @@ main {
   font-size: 18px;
 }
 
+.contact-section {
+    text-align: center;
+    padding: 20px;
+    background: #1e1e1e; /* Dark mode background */
+    color: white;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.contact-me-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contact-list li {
+    display: flex;
+    align-items: center;
+}
+
+.contact-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s ease;
+}
+
+.contact-list a:hover {
+    color: #00bfa5; /* Stylish hover effect */
+}
+
+.contact-list img {
+    width: 24px;
+    height: 24px;
+}
+
 .social-item .social-link:hover { color: var(--light-gray); }
 
 /*-----------------------------------*\
