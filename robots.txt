@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bhaveshrordev.github.io/onlineresume/sitemap.xml
