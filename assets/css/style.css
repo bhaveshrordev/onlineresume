@@ -1773,6 +1773,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 }
 
+.align-svg {
+  display: flex; 
+  align-items: center; 
+  gap: 8px;
+}
+
 .youtube-video {
     text-align: center;
     padding: 40px 20px;
