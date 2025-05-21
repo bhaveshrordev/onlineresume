@@ -1811,6 +1811,9 @@ textarea.form-input::-webkit-resizer { display: none; }
     box-shadow: 0 4px 12px rgba(56, 249, 215, 0.4);
     cursor: pointer;
     transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
 /* Responsive Design */
